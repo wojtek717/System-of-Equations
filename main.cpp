@@ -2,6 +2,8 @@
 #include <sstream>
 #include "Vector.h"
 #include "SystemOfEquations.h"
+#include "Matrix.h"
+#include "Consts.h"
 
 int main()
 {
@@ -10,6 +12,7 @@ int main()
 
     Vector v;
     Vector tmp;
+    Vector *A;
     SystemOfEquations SoE;
 
     s = "1 4 9\n";
@@ -17,12 +20,13 @@ int main()
 
     ss >> v;
 
-    std::cout << v << std::endl;
+    for (int i = 0; i < ROZMIAR; ++i)
+    {
+        SoE.SetVectorsA(i, v);
 
-    SoE.SetVectorsA(0, v);
-    tmp = SoE.GetVectorsA(0);
-
-    std::cout << tmp;
+        tmp = SoE.GetVectorsA(i);
+        std::cout << tmp << std::endl;
+    }
 
     s = "9 8 7\n";
     ss.str (s); //Zmienna s jako strumien
@@ -31,7 +35,25 @@ int main()
 
     SoE.SetVectorB(v);
     tmp = SoE.GetVectorB();
-    std::cout << tmp;
+    std::cout << tmp << std::endl << std::endl;
+
+    Matrix matrix(SoE.GetA(), SoE.GetVectorB());
+
+    for (int j = 0; j <= ROZMIAR ; ++j)
+    {
+        tmp = matrix.GetVector(j);
+        std::cout << tmp << std::endl;
+
+    }
+
+    /*
+    A = SoE.GetVectorsA();
+    tmp = A[0];
+    std::cout << tmp << std::endl;
+
+    tmp = matrix.GetVector(0);
+    std::cout << tmp << std::endl;
+*/
 
     return 0;
 }

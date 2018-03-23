@@ -39,3 +39,9 @@ Vector SystemOfEquations::GetVectorX()
 {
     return vectorX;
 }
+
+Vector *SystemOfEquations::GetA() //TO NIE DZIALA
+{
+    return vectorsA;
+}
+

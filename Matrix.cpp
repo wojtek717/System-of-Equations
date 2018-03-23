@@ -12,3 +12,8 @@ Matrix::Matrix(Vector *vectorsA, Vector vectorB)
 
     vectors[ROZMIAR] = vectorB;
 }
+
+Vector Matrix::GetVector(int position)
+{
+    return vectors[position];
+}

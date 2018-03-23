@@ -8,6 +8,16 @@
 
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
 
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.cpp
+Matrix.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.h
+Consts.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
+
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.h
+Vector.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
+
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.cpp
 SystemOfEquations.h
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.h
@@ -41,4 +51,8 @@ Vector.h
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
 SystemOfEquations.h
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.h
+Matrix.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.h
+Consts.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
 

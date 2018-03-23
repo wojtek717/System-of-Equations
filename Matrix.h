@@ -11,6 +11,7 @@ private:
 
 public:
     Matrix(Vector *vectorsA, Vector vectorB);
+    Vector GetVector(int position);
 };
 
 

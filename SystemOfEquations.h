@@ -16,6 +16,7 @@ public:
 
     void SetVectorsA(int position, Vector vector);
     Vector GetVectorsA(int position);
+    Vector* GetA(); //TO NIE DZIALA
 
     void SetVectorB(Vector vector);
     Vector GetVectorB();
