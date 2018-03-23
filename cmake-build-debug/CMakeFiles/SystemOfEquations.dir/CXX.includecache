@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
+
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.cpp
+SystemOfEquations.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.h
+Consts.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
+
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.h
+Vector.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
+
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.cpp
+Vector.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
+Consts.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
+string
+-
+sstream
+-
+
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
+iostream
+-
+
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/main.cpp
+iostream
+-
+sstream
+-
+Vector.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
+SystemOfEquations.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.h
+
