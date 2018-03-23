@@ -123,6 +123,33 @@ SystemOfEquations/fast:
 	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/build
 .PHONY : SystemOfEquations/fast
 
+Matrix.o: Matrix.cpp.o
+
+.PHONY : Matrix.o
+
+# target to build an object file
+Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
+
+Matrix.i: Matrix.cpp.i
+
+.PHONY : Matrix.i
+
+# target to preprocess a source file
+Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
+
+Matrix.s: Matrix.cpp.s
+
+.PHONY : Matrix.s
+
+# target to generate assembly for a file
+Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
 SystemOfEquations.o: SystemOfEquations.cpp.o
 
 .PHONY : SystemOfEquations.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SystemOfEquations"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
 	@echo "... SystemOfEquations.o"
 	@echo "... SystemOfEquations.i"
 	@echo "... SystemOfEquations.s"

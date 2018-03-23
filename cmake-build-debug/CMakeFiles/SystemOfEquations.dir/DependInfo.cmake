@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.cpp" "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/Matrix.cpp.o"
   "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/SystemOfEquations.cpp" "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o"
   "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.cpp" "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/Vector.cpp.o"
   "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/main.cpp" "/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/main.cpp.o"
