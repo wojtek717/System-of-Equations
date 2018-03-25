@@ -1,13 +1,9 @@
-//
-// Created by wojci on 23.03.2018.
-//
-
 #include "SystemOfEquations.h"
 #include "Consts.h"
 
 SystemOfEquations::SystemOfEquations()
 {
-    vectorsA = new Vector[ROZMIAR];
+    // A tutaj bedzie to vectorsA = new Vector[ROZMIAR];
 }
 
 void SystemOfEquations::SetVectorsA(int position, Vector vector)
@@ -38,10 +34,5 @@ void SystemOfEquations::SetVectorX(Vector vector)
 Vector SystemOfEquations::GetVectorX()
 {
     return vectorX;
-}
-
-Vector *SystemOfEquations::GetA() //TO NIE DZIALA
-{
-    return vectorsA;
 }
 

@@ -11,18 +11,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d7f8ff-e3d4-4181-9ca7-9293c1ab5470" name="Default" comment="Crated class Matrix">
+    <list default="true" id="42d7f8ff-e3d4-4181-9ca7-9293c1ab5470" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/InputOutput.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/InputOutput.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/task.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/Matrix.cpp" afterPath="$PROJECT_DIR$/Matrix.cpp" />
       <change beforePath="$PROJECT_DIR$/Matrix.h" afterPath="$PROJECT_DIR$/Matrix.h" />
       <change beforePath="$PROJECT_DIR$/SystemOfEquations.cpp" afterPath="$PROJECT_DIR$/SystemOfEquations.cpp" />
       <change beforePath="$PROJECT_DIR$/SystemOfEquations.h" afterPath="$PROJECT_DIR$/SystemOfEquations.h" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/main.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SystemOfEquations.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/SystemOfEquations.exe" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/main.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SystemOfEquations.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SystemOfEquations.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/SystemOfEquations.cbp" />
       <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -36,23 +45,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file leaf-file-name="InputOutput.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputOutput.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#81#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputOutput.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputOutput.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,10 +84,10 @@
       <file leaf-file-name="SystemOfEquations.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SystemOfEquations.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="170">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
-                <element signature="e#42#72#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,52 +96,10 @@
       <file leaf-file-name="SystemOfEquations.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SystemOfEquations.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matrix.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matrix.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matrix.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matrix.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consts.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Consts.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vector.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vector.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#94#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +108,30 @@
       <file leaf-file-name="Vector.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vector.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -145,10 +148,13 @@
         <option value="$PROJECT_DIR$/Consts.h" />
         <option value="$PROJECT_DIR$/Vector.h" />
         <option value="$PROJECT_DIR$/Vector.cpp" />
-        <option value="$PROJECT_DIR$/Matrix.h" />
         <option value="$PROJECT_DIR$/Matrix.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Matrix.h" />
+        <option value="$PROJECT_DIR$/task.txt" />
         <option value="$PROJECT_DIR$/SystemOfEquations.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/InputOutput.cpp" />
+        <option value="$PROJECT_DIR$/InputOutput.h" />
         <option value="$PROJECT_DIR$/SystemOfEquations.h" />
       </list>
     </option>
@@ -209,7 +215,7 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SystemOfEquations" RUN_TARGET_NAME="SystemOfEquations" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="SystemOfEquations" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SystemOfEquations" TARGET_NAME="SystemOfEquations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SystemOfEquations" RUN_TARGET_NAME="SystemOfEquations">
+    <configuration name="SystemOfEquations" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SystemOfEquations" TARGET_NAME="SystemOfEquations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SystemOfEquations" RUN_TARGET_NAME="SystemOfEquations">
       <envs />
     </configuration>
     <list size="2">
@@ -230,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521830229964</updated>
-      <workItem from="1521830231388" duration="4899000" />
+      <workItem from="1521830231388" duration="8945000" />
     </task>
     <task id="LOCAL-00001" summary="Crated class Matrix">
       <created>1521833127311</created>
@@ -239,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521833127311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="*BUGS*&#10;Matrix.GetA()">
+      <created>1521836355194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521836355194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4899000" />
+    <option name="totallyTimeSpent" value="8945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -274,11 +287,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Crated class Matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crated class Matrix" />
+    <MESSAGE value="*BUGS*&#10;Matrix.GetA()" />
+    <option name="LAST_COMMIT_MESSAGE" value="*BUGS*&#10;Matrix.GetA()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -299,28 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vector.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Matrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -329,16 +325,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Matrix.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ios_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputOutput.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -347,19 +369,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SystemOfEquations.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
-            <element signature="e#42#72#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#81#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SystemOfEquations.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="e#94#113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

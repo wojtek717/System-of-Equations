@@ -10,7 +10,8 @@ private:
     Vector *vectors;
 
 public:
-    Matrix(Vector *vectorsA, Vector vectorB);
+    Matrix();
+    void SetVector(int position, Vector vector);
     Vector GetVector(int position);
 };
 

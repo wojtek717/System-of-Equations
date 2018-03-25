@@ -1,19 +1,17 @@
 #include "Matrix.h"
 #include "Consts.h"
 
-Matrix::Matrix(Vector *vectorsA, Vector vectorB)
+Matrix::Matrix()
 {
     vectors = new Vector[ROZMIAR + 1];
-
-    for (int i = 0; i < ROZMIAR; ++i)
-    {
-        vectors[i] = vectorsA[i];
-    }
-
-    vectors[ROZMIAR] = vectorB;
 }
 
 Vector Matrix::GetVector(int position)
 {
     return vectors[position];
+}
+
+void Matrix::SetVector(int position, Vector vector)
+{
+    vectors[position] = vector;
 }

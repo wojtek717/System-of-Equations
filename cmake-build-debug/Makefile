@@ -123,6 +123,33 @@ SystemOfEquations/fast:
 	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/build
 .PHONY : SystemOfEquations/fast
 
+InputOutput.o: InputOutput.cpp.o
+
+.PHONY : InputOutput.o
+
+# target to build an object file
+InputOutput.cpp.o:
+	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.o
+.PHONY : InputOutput.cpp.o
+
+InputOutput.i: InputOutput.cpp.i
+
+.PHONY : InputOutput.i
+
+# target to preprocess a source file
+InputOutput.cpp.i:
+	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.i
+.PHONY : InputOutput.cpp.i
+
+InputOutput.s: InputOutput.cpp.s
+
+.PHONY : InputOutput.s
+
+# target to generate assembly for a file
+InputOutput.cpp.s:
+	$(MAKE) -f CMakeFiles/SystemOfEquations.dir/build.make CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.s
+.PHONY : InputOutput.cpp.s
+
 Matrix.o: Matrix.cpp.o
 
 .PHONY : Matrix.o
@@ -240,6 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SystemOfEquations"
+	@echo "... InputOutput.o"
+	@echo "... InputOutput.i"
+	@echo "... InputOutput.s"
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"

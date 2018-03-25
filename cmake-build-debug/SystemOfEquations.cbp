@@ -83,6 +83,12 @@
 		<Unit filename="/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h">
 			<Option target="SystemOfEquations"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/InputOutput.cpp">
+			<Option target="SystemOfEquations"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/InputOutput.h">
+			<Option target="SystemOfEquations"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.cpp">
 			<Option target="SystemOfEquations"/>
 		</Unit>
