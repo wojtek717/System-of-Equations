@@ -29,9 +29,19 @@ SystemOfEquations OpenFile(std::string filename)
             if(i < ROZMIAR)
             {
                 SoE.SetVectorsA(i, v);
+
+                tmp = SoE.GetVectorsA(i);
+                if(i > 0)
+                {
+                    tmp2 = SoE.GetVectorsA((i - 1));
+                }
+                std::cout << "### " << tmp << " ###" << tmp2 << std::endl;
             } else
             {
                 SoE.SetVectorB(v);
+
+                tmp = SoE.GetVectorB();
+                std::cout << "### " << tmp << " ###" << std::endl;
             }
         }
     }

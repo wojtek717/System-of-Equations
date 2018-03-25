@@ -17,6 +17,11 @@ public:
 
 std::ostream & operator<< (std::ostream &wyjscie, Vector &v);
 std::istream& operator>> (std::istream &is, Vector &v);
+Vector operator * (Vector v1, Vector v2);
+Vector operator * (float x1, Vector v1);
+Vector operator + (Vector v1, Vector v2);
+Vector operator - (Vector v1, Vector v2);
+Vector operator / (Vector v1, float x1);
 
 
 #endif //SYSTEMOFEQUATIONS_VECTOR_H

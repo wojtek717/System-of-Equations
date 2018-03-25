@@ -36,3 +36,20 @@ Vector SystemOfEquations::GetVectorX()
     return vectorX;
 }
 
+std::ostream & operator<< (std::ostream &wyjscie, SystemOfEquations SoE)
+{
+    Vector tmp;
+
+    for (int i = 0; i <= ROZMIAR; ++i)
+    {
+        if(i < ROZMIAR)
+        {
+            tmp = SoE.GetVectorsA(i);
+            std::cout << tmp << std::endl;
+        } else
+        {
+            tmp = SoE.GetVectorB();
+            std::cout << tmp << std::endl;
+        }
+    }
+}

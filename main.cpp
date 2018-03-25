@@ -14,7 +14,12 @@ int main()
     Vector v;
     string file = "task.txt";
 
-    SoE = OpenFile(file);
+    //SoE = OpenFile(file);
+
+    //cout << SoE;
+
+    //v = SoE.GetVectorsA(0);
+    //cout << v;
 
     return 0;
 }

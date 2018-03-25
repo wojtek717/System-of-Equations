@@ -25,5 +25,8 @@ public:
     Vector GetVectorX();
 };
 
+std::ostream & operator<< (std::ostream &wyjscie, SystemOfEquations SoE);
+
+
 
 #endif //SYSTEMOFEQUATIONS_SYSTEMOFEQUATIONS_H
