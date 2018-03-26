@@ -5,7 +5,7 @@
 
 Vector::Vector()
 {
-    factors = new float[ROZMIAR];
+    //factors = new float[ROZMIAR]; Tak nie dziala xD? :D
 }
 
 void Vector::Set(int position, float value)

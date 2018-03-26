@@ -2,11 +2,12 @@
 #define SYSTEMOFEQUATIONS_VECTOR_H
 
 #include <iostream>
+#include "Consts.h"
 
 class Vector
 {
 private:
-    float *factors;
+    float factors[ROZMIAR]; //JAK *factors TO NIE DZIALA XD?
 
 public:
     Vector();

@@ -14,12 +14,13 @@ int main()
     Vector v;
     string file = "task.txt";
 
-    //SoE = OpenFile(file);
+    SoE = OpenFile(file);
 
-    //cout << SoE;
-
-    //v = SoE.GetVectorsA(0);
-    //cout << v;
+    cout << SoE;
 
     return 0;
 }
+
+// TODO Matrix Class
+// TODO Det() - in Matrix
+// TODO Solution() - in SystemOfEquations
