@@ -17,12 +17,17 @@ int main()
     string file = "task.txt";
 
     SoE = OpenFile(file);
+    SoE.CreateMatricies();
 
     cout << SoE;
+    cout << endl << "###" << endl << endl;
 
-    tmp = SoE.GetVectorB();
-    factor = tmp[0];
-    cout << factor;
+    for (int i = 0; i < ROZMIAR + 1; ++i)
+    {
+        cout << SoE.matrices[i];
+        cout << "**************************" << endl;
+    }
+
 
     return 0;
 }

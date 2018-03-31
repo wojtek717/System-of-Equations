@@ -11,7 +11,9 @@ private:
 
 public:
     void SetMatrix(float value, int positionx, int positiony);
+    float GetValue(int positionx, int positiony);
 };
 
+std::ostream & operator<< (std::ostream &wyjscie, Matrix m);
 
 #endif //SYSTEMOFEQUATIONS_MATRIX_H
