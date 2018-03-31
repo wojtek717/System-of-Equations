@@ -7,12 +7,10 @@
 class Matrix
 {
 private:
-    Vector *vectors;
+    float matrix[ROZMIAR][ROZMIAR];
 
 public:
-    Matrix();
-    void SetVector(int position, Vector vector);
-    Vector GetVector(int position);
+    void SetMatrix(float value, int positionx, int positiony);
 };
 
 

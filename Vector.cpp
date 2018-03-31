@@ -18,6 +18,11 @@ float Vector::Get(int position)
     return factors[position];
 }
 
+float Vector::operator[](int id)
+{
+    return factors[id];
+}
+
 std::ostream &operator<<(std::ostream &wyjscie, Vector &v)
 {
     for(int i = 0; i < ROZMIAR; ++i)
@@ -31,15 +36,15 @@ std::istream &operator>>(std::istream &is, Vector &v)
 {
     float tmp;
     std::string s;
-    std::stringstream ss; //Sting jako strumien
+    std::stringstream ss; //Sting as stream
 
-    std::getline(is, s);
-    ss.str (s); //Zmienna s jako strumien
+    std::getline(is, s); //Get line from input stream to variable s
+    ss.str (s); //Variable s as stream
 
     for (int i = 0; i < ROZMIAR; ++i)
     {
         ss >> tmp;
-        v.Set(i, tmp);
+        v.Set(i, tmp); //Set value of tmp to vector on position i
     }
 
     return is;

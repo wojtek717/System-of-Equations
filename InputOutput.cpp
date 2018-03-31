@@ -9,33 +9,29 @@
 SystemOfEquations OpenFile(std::string filename)
 {
     std::fstream file;
-    std::string s;
-    std::stringstream ss;
     Vector v;
-    Vector tmp;
-    Vector tmp2;
     SystemOfEquations SoE;
 
-    file.open(filename);
+    file.open(filename); //Open file
 
-    if(file.is_open())
+    if(file.is_open()) //Has file opened succesfully?
     {
         std::cout << "FILE IS OPEN" << std::endl;
 
         for (int i = 0; i <= ROZMIAR ; ++i)
         {
-            file >> v;
+            file >> v; //From stream file to Vector
 
             if(i < ROZMIAR)
             {
                 SoE.SetVectorsA(i, v);
-            } else
+            } else //Last vector is B matrix
             {
                 SoE.SetVectorB(v);
             }
         }
     }
-    file.close();
+    file.close(); //Close file
 
     return SoE;
 }

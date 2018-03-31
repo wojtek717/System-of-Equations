@@ -1,17 +1,8 @@
 #include "Matrix.h"
 #include "Consts.h"
 
-Matrix::Matrix()
+void Matrix::SetMatrix(float value, int positionx, int positiony)
 {
-    vectors = new Vector[ROZMIAR + 1];
+    matrix[positionx][positiony] = value;
 }
 
-Vector Matrix::GetVector(int position)
-{
-    return vectors[position];
-}
-
-void Matrix::SetVector(int position, Vector vector)
-{
-    vectors[position] = vector;
-}

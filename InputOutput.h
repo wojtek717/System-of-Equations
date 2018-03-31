@@ -5,6 +5,8 @@
 #include <fstream>
 #include "SystemOfEquations.h"
 
+/* [IN](std::string) filename - file name with task
+ * [RETURN](SystemOfEquations) - Object with loaded factors */
 SystemOfEquations OpenFile(std::string filename);
 
 
