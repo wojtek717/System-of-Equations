@@ -12,10 +12,7 @@ private:
 public:
     Vector();
 
-    void Set(int position, float value); //Set new value for factor on position
-    float Get(int position); //Get value of factor on position
-
-    float operator[] (int id);
+    float& operator[] (int id);
 };
 
 /* Overloads for operators */
