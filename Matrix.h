@@ -7,11 +7,16 @@
 class Matrix
 {
 private:
-    float matrix[ROZMIAR][ROZMIAR];
+    float matrix[ROZMIAR][ROZMIAR + 1];
+
 
 public:
+    float X[ROZMIAR];
+
     void SetMatrix(float value, int positionx, int positiony);
     float GetValue(int positionx, int positiony);
+
+    bool Det();
 };
 
 std::ostream & operator<< (std::ostream &wyjscie, Matrix m);

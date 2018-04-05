@@ -37,6 +37,10 @@ Matrix.h
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.h
 Consts.h
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
+cmath
+-
+iomanip
+-
 
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.h
 Vector.h
@@ -53,6 +57,8 @@ Vector.h
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
 Consts.h
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Consts.h
+Matrix.h
+/cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Matrix.h
 
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.cpp
 Vector.h

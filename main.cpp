@@ -17,24 +17,16 @@ int main()
     string file = "task.txt";
 
     SoE = OpenFile(file);
-    SoE.CreateMatricies();
+    SoE.CreateMatrixAB();
 
     cout << SoE;
     cout << endl << "###" << endl << endl;
 
-    for (int i = 0; i < ROZMIAR + 1; ++i)
-    {
-        cout << SoE.matrices[i];
-        cout << "**************************" << endl;
-    }
+
+    cout << SoE.GetMatrixAB() << endl;
+    cout << SoE.GetMatrixAB().X[2];
+
 
 
     return 0;
 }
-
-// TODO Matrix Class
-// TODO Det() - in Matrix
-// TODO Solution() - in SystemOfEquations
-
-/* OVERLOADS:
- * */

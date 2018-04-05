@@ -12,12 +12,9 @@ private:
     Vector vectorsA[ROZMIAR]; //Jak zamiast tego bedzie *vectorsA to nie dziala :|
     Vector vectorB;
     Vector vectorX;
-
-
+    Matrix matrixAB;
 
 public:
-    Matrix matrices[ROZMIAR + 1];
-
     SystemOfEquations();
 
     void SetVectorsA(int position, Vector vector);
@@ -29,7 +26,10 @@ public:
     void SetVectorX(Vector vector);
     Vector GetVectorX();
 
-    void CreateMatricies();
+    void CreateMatrixAB();
+    Matrix GetMatrixAB();
+
+    //TODO
 };
 
 std::ostream & operator<< (std::ostream &wyjscie, SystemOfEquations SoE);

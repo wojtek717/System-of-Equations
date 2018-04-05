@@ -4,6 +4,7 @@
 CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.o: ../Consts.h
 CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.o: ../InputOutput.cpp
 CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.o: ../InputOutput.h
+CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.o: ../Matrix.h
 CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.o: ../SystemOfEquations.h
 CMakeFiles/SystemOfEquations.dir/InputOutput.cpp.o: ../Vector.h
 
@@ -13,6 +14,7 @@ CMakeFiles/SystemOfEquations.dir/Matrix.cpp.o: ../Matrix.h
 CMakeFiles/SystemOfEquations.dir/Matrix.cpp.o: ../Vector.h
 
 CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o: ../Consts.h
+CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o: ../Matrix.h
 CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o: ../SystemOfEquations.cpp
 CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o: ../SystemOfEquations.h
 CMakeFiles/SystemOfEquations.dir/SystemOfEquations.cpp.o: ../Vector.h

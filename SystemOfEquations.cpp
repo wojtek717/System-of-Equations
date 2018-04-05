@@ -36,36 +36,35 @@ Vector SystemOfEquations::GetVectorX()
     return vectorX;
 }
 
-void SystemOfEquations::CreateMatricies()
+void SystemOfEquations::CreateMatrixAB()
 {
-    Matrix m;
     Vector v;
     float value;
 
-    for (int i = 0; i < ROZMIAR+1; ++i)
+    for (int i = 0; i < ROZMIAR + 1; ++i)
     {
-        for (int x = 0; x < ROZMIAR; ++x) 
+        for (int k = 0; k < ROZMIAR; ++k)
         {
-            for (int y = 0; y < ROZMIAR; ++y)
+            if(i < ROZMIAR)
             {
-                v = vectorsA[x];
-                value = v[y];
-                m.SetMatrix(value, x, y);
-            }    
-        }
-
-        if(i > 0)
-        {
-            for (int y = 0; y < ROZMIAR; ++y)
+                v = vectorsA[i];
+                value = v[k];
+            } else
             {
                 v = vectorB;
-                value = v[y];
-                m.SetMatrix(value, i-1, y);
+                value = v[k];
             }
-        }
 
-        matrices[i] = m;
+            matrixAB.SetMatrix(value,k,i);
+        }
     }
+
+    matrixAB.Det();
+}
+
+Matrix SystemOfEquations::GetMatrixAB()
+{
+    return matrixAB;
 }
 
 
