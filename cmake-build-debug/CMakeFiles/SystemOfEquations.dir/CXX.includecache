@@ -69,6 +69,8 @@ string
 -
 sstream
 -
+math.h
+-
 
 /cygdrive/c/Users/wojci/CLionProjects/SystemOfEquations/Vector.h
 iostream

@@ -10,23 +10,22 @@ using namespace std;
 
 int main()
 {
-    SystemOfEquations SoE;
-    Vector v;
-    float factor;
-    Vector tmp;
-    string file = "task.txt";
+    SystemOfEquations SoE; //Create new object - System of equations
 
-    SoE = OpenFile(file);
-    SoE.CreateMatrixAB();
+    string file = "task.txt"; //Import name of file with system of equations
+    SoE = OpenFile(file); //Import system of equations
 
-    cout << SoE;
-    cout << endl << "###" << endl << endl;
+    SoE.CreateMatrixAB(); //Create matrix of algebraic complements
 
+    cout << "Imported matrix: " << endl << SoE << endl; //Print imported matrix
+    cout << "Elimination: " << endl << SoE.GetMatrixAB() << endl; //Print matrix after elimination
 
-    cout << SoE.GetMatrixAB() << endl;
-    cout << SoE.GetMatrixAB().X[2];
+    for (int i = 0; i < SIZE; ++i)
+    {
+        cout << "x" << i+1 << " = " << SoE.GetMatrixAB().GetVectorX()[i] << endl; //Print solutions
+    }
 
-
+    cout << endl << "Error = " << SoE.Diff().Length(); //Calculate and print mistake
 
     return 0;
 }

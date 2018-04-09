@@ -16,13 +16,13 @@ SystemOfEquations OpenFile(std::string filename)
 
     if(file.is_open()) //Has file opened succesfully?
     {
-        std::cout << "FILE IS OPEN" << std::endl;
+        std::cout << "FILE IS OPEN" << std::endl << std::endl;
 
-        for (int i = 0; i <= ROZMIAR ; ++i)
+        for (int i = 0; i <= SIZE ; ++i)
         {
             file >> v; //From stream file to Vector
 
-            if(i < ROZMIAR)
+            if(i < SIZE)
             {
                 SoE.SetVectorsA(i, v);
             } else //Last vector is B matrix
