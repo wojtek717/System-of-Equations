@@ -6,7 +6,7 @@
 #include <fstream>
 #include <sstream>
 
-SystemOfEquations OpenFile(std::string filename)
+SystemOfEquations OpenFile(char* filename)
 {
     std::fstream file;
     Vector v;

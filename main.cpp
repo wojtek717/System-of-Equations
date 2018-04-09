@@ -12,7 +12,7 @@ int main()
 {
     SystemOfEquations SoE; //Create new object - System of equations
 
-    string file = "task.txt"; //Import name of file with system of equations
+    char file[] = "task.txt"; //Import name of file with system of equations
     SoE = OpenFile(file); //Import system of equations
 
     SoE.CreateMatrixAB(); //Create matrix of algebraic complements

@@ -7,7 +7,7 @@
 
 /* [IN](std::string) filename - file name with task
  * [RETURN](SystemOfEquations) - Object with loaded factors */
-SystemOfEquations OpenFile(std::string filename);
+SystemOfEquations OpenFile(char* filename);
 
 
 #endif //SYSTEMOFEQUATIONS_INPUTOUTPUT_H
