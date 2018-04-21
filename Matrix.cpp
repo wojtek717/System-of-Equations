@@ -4,19 +4,22 @@
 #include <cmath>
 #include <iomanip>
 
-void Matrix::SetMatrix(float value, int positionx, int positiony)
+template<typename T>
+void Matrix<T>::SetMatrix(T value, int positionx, int positiony)
 {
     matrix[positionx][positiony] = value; //Assign value to coordinate
 }
 
-float Matrix::GetValue(int positionx, int positiony)
+template<typename T>
+T Matrix<T>::GetValue(int positionx, int positiony)
 {
     return matrix[positionx][positiony]; //Return value in coordinate
 }
 
-bool Matrix::Elimination()
+template<typename T>
+bool Matrix<T>::Elimination()
 {
-    float multipler;
+    T multipler;
 
     for (int i = 0; i < SIZE - 1; ++i)
     {
@@ -35,13 +38,13 @@ bool Matrix::Elimination()
             }
         }
     }
-
     return true;
 }
 
-bool Matrix::Solution()
+template<typename T>
+bool Matrix<T>::Solution()
 {
-    float sum;
+    T sum;
 
     for (int i = SIZE - 1; i >= 0; --i)
     {
@@ -62,12 +65,14 @@ bool Matrix::Solution()
     return true;
 }
 
-Vector Matrix::GetVectorX()
+template<typename T>
+Vector<T> Matrix<T>::GetVectorX()
 {
     return X;
 }
 
-std::ostream &operator<<(std::ostream &wyjscie,  Matrix m)
+template<typename T>
+std::ostream &operator<<(std::ostream &wyjscie,  Matrix<T> m)
 {
     for (int x = 0; x < SIZE; ++x)
     {

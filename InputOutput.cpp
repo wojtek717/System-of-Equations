@@ -6,11 +6,12 @@
 #include <fstream>
 #include <sstream>
 
-SystemOfEquations OpenFile(char* filename)
+template<typename T>
+SystemOfEquations<T> OpenFile(char* filename)
 {
     std::fstream file;
-    Vector v;
-    SystemOfEquations SoE;
+    Vector<T> v;
+    SystemOfEquations<T> SoE;
 
     file.open(filename); //Open file
 

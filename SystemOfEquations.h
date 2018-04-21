@@ -6,49 +6,50 @@
 #include "Consts.h"
 #include "Matrix.h"
 
+template<typename T>
 class SystemOfEquations
 {
 private:
-    Vector vectorsA[SIZE];
-    Vector vectorB;
-    Matrix matrixAB;
+    Vector<T> vectorsA[SIZE];
+    Vector<T> vectorB;
+    Matrix<T> matrixAB;
 
 public:
-    SystemOfEquations();
 
     /* Set vector for matrix A
      * [IN](int) position - coordinate of array
      * [IN](Vector) vector - Vector to set */
-    void SetVectorsA(int position, Vector vector);
+    void SetVectorsA(int position, Vector<T> vector);
 
     /* Get vector in coordinate
      * [IN](int) position - coordinate of array
      * [RETURN](Vector) - Vector from array in coordinate*/
-    Vector GetVectorsA(int position);
+    Vector<T> GetVectorsA(int position);
 
 
     /* Set vector B
      * [IN](Vector) - Vector to set */
-    void SetVectorB(Vector vector);
+    void SetVectorB(Vector<T> vector);
 
     /* Get vector B
      * [RETURN](Vector) - vector B */
-    Vector GetVectorB();
+    Vector<T> GetVectorB();
 
 
     /* Function creates matrix of algebraic complements */
     void CreateMatrixAB();
 
     /* [RETURN](Matrix) - Function returns matrix of algebraic complements */
-    Matrix GetMatrixAB();
+    Matrix<T> GetMatrixAB();
 
     /* Function calculate calculations error
      * [Return](Vector) - vector of calculations error */
-    Vector Diff();
+    Vector<T> Diff();
 };
 
 /* Overload for operatrs */
-std::ostream & operator<< (std::ostream &wyjscie, SystemOfEquations SoE);
+template<typename T>
+std::ostream & operator<< (std::ostream &wyjscie, SystemOfEquations<T> SoE);
 
 
 

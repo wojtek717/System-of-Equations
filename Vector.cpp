@@ -4,14 +4,10 @@
 #include <sstream>
 #include <math.h>
 
-Vector::Vector()
+template<typename T>
+T Vector<T>::Length()
 {
-
-}
-
-float Vector::Length()
-{
-    float sum = 0;
+    T sum = 0;
 
     for (int i = 0; i < SIZE; ++i)
     {
@@ -23,12 +19,14 @@ float Vector::Length()
     return sum;
 }
 
-float& Vector::operator[](int id)
+template<typename T>
+T& Vector<T>::operator[](int id)
 {
     return factors[id];
 }
 
-std::ostream &operator<<(std::ostream &wyjscie, Vector &v)
+template<typename T>
+std::ostream &operator<<(std::ostream &wyjscie, Vector<T> &v)
 {
     for(int i = 0; i < SIZE; ++i)
     {
@@ -37,9 +35,10 @@ std::ostream &operator<<(std::ostream &wyjscie, Vector &v)
     return wyjscie;
 }
 
-std::istream &operator>>(std::istream &is, Vector &v)
+template<typename T>
+std::istream &operator>>(std::istream &is, Vector<T> &v)
 {
-    float tmp;
+    T tmp;
     std::string s;
     std::stringstream ss; //Sting as stream
 
@@ -55,9 +54,10 @@ std::istream &operator>>(std::istream &is, Vector &v)
     return is;
 }
 
-float operator*(Vector v1, Vector v2)
+template<typename T>
+T operator*(Vector<T> v1, Vector<T> v2)
 {
-    float num = 0;
+    T num = 0;
 
     for (int i = 0; i < SIZE; ++i)
     {
@@ -67,10 +67,10 @@ float operator*(Vector v1, Vector v2)
     return  num;
 }
 
-
-Vector operator*(float x1, Vector v1)
+template<typename T>
+Vector<T> operator*(T x1, Vector<T> v1)
 {
-    Vector num;
+    Vector<T> num;
 
     for (int i = 0; i < SIZE; ++i)
     {
@@ -80,10 +80,10 @@ Vector operator*(float x1, Vector v1)
     return num;
 }
 
-
-Vector operator+(Vector v1, Vector v2)
+template<typename T>
+Vector<T> operator+(Vector<T> v1, Vector<T> v2)
 {
-    Vector num;
+    Vector<T> num;
 
     for (int i = 0; i < SIZE; ++i)
     {
@@ -93,9 +93,10 @@ Vector operator+(Vector v1, Vector v2)
     return num;
 }
 
-Vector operator-(Vector v1, Vector v2)
+template<typename T>
+Vector<T> operator-(Vector<T> v1, Vector<T> v2)
 {
-    Vector num;
+    Vector<T> num;
 
     for (int i = 0; i < SIZE; ++i)
     {
@@ -105,9 +106,10 @@ Vector operator-(Vector v1, Vector v2)
     return num;
 }
 
-Vector operator/(Vector v1, float x1)
+template<typename T>
+Vector<T> operator/(Vector<T> v1, T x1)
 {
-    Vector num;
+    Vector<T> num;
 
     if(x1 != 0)
     {

@@ -4,28 +4,29 @@
 
 #include "Vector.h"
 
+template<typename T>
 class Matrix
 {
 private:
-    float matrix[SIZE][SIZE + 1];
-    Vector X;
+    T matrix[SIZE][SIZE + 1];
+    Vector<T> X;
 
 public:
     /* Set value of matrix in coordinate XY
      * [IN] value - value to set
      * [IN] positionx - coordinate X of matrix
      * [IN] positiony - coordinate Y of matrix */
-    void SetMatrix(float value, int positionx, int positiony);
+    void SetMatrix(T value, int positionx, int positiony);
 
     /* Get value of matrix in coordinate XY
      * [IN] positionx - coordinate X of matrix
      * [IN] positiony - coordinate Y of matrix
      * [RETURN](float) - value of matrix in coordinate XY*/
-    float GetValue(int positionx, int positiony);
+    T GetValue(int positionx, int positiony);
 
     /* Function returns solutions vector
      * [RETURN](Vector) - vector with solutions */
-    Vector GetVectorX();
+    Vector<T> GetVectorX();
 
 
     /* Function conducts Gaussian elimination
@@ -38,6 +39,7 @@ public:
 };
 
 /* Overload for operators */
-std::ostream & operator<< (std::ostream &wyjscie, Matrix m);
+template<typename T>
+std::ostream & operator<< (std::ostream &wyjscie, Matrix<T> m);
 
 #endif //SYSTEMOFEQUATIONS_MATRIX_H

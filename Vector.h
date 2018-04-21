@@ -4,29 +4,42 @@
 #include <iostream>
 #include "Consts.h"
 
+template<typename T>
 class Vector
 {
 private:
-    float factors[SIZE];
+    T factors[SIZE];
 
 public:
-    Vector();
 
     /* Function calculate length of vector */
-    float Length();
+    T Length();
 
     /* Overload operator [] */
-    float& operator[] (int id);
+    T& operator[] (int id);
 };
 
 /* Overloads for operators */
-std::ostream & operator<< (std::ostream &wyjscie, Vector &v);
-std::istream& operator>> (std::istream &is, Vector &v);
-float operator * (Vector v1, Vector v2);
-Vector operator * (float x1, Vector v1);
-Vector operator + (Vector v1, Vector v2);
-Vector operator - (Vector v1, Vector v2);
-Vector operator / (Vector v1, float x1);
+template<typename T>
+std::ostream & operator<< (std::ostream &wyjscie, Vector<T> &v);
+
+template<typename T>
+std::istream& operator>> (std::istream &is, Vector<T> &v);
+
+template<typename T>
+T operator * (Vector<T> v1, Vector<T> v2);
+
+template<typename T>
+Vector<T> operator * (T x1, Vector<T> v1);
+
+template<typename T>
+Vector<T> operator + (Vector<T> v1, Vector<T> v2);
+
+template<typename T>
+Vector<T> operator - (Vector<T> v1, Vector<T> v2);
+
+template<typename T>
+Vector<T> operator / (Vector<T> v1, T x1);
 
 
 

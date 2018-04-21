@@ -1,35 +1,35 @@
 #include "SystemOfEquations.h"
 #include "Consts.h"
 
-SystemOfEquations::SystemOfEquations()
-{
-
-}
-
-void SystemOfEquations::SetVectorsA(int position, Vector vector)
+template<typename T>
+void SystemOfEquations<T>::SetVectorsA(int position, Vector<T> vector)
 {
     vectorsA[position] = vector; //Assign vector to position
 }
 
-Vector SystemOfEquations::GetVectorsA(int position)
+template<typename T>
+Vector<T> SystemOfEquations<T>::GetVectorsA(int position)
 {
     return vectorsA[position]; //Return vector in coordinate
 }
 
-void SystemOfEquations::SetVectorB(Vector vector)
+template<typename T>
+void SystemOfEquations<T>::SetVectorB(Vector<T> vector)
 {
     vectorB = vector; //Assign vector
 }
 
-Vector SystemOfEquations::GetVectorB()
+template<typename T>
+Vector<T> SystemOfEquations<T>::GetVectorB()
 {
     return vectorB; //Return vector
 }
 
-void SystemOfEquations::CreateMatrixAB()
+template<typename T>
+void SystemOfEquations<T>::CreateMatrixAB()
 {
-    Vector v;
-    float value;
+    Vector<T> v;
+    T value;
 
     for (int i = 0; i < SIZE + 1; ++i)
     {
@@ -52,15 +52,17 @@ void SystemOfEquations::CreateMatrixAB()
     matrixAB.Solution(); //Calculate solutions
 }
 
-Matrix SystemOfEquations::GetMatrixAB()
+template<typename T>
+Matrix<T> SystemOfEquations<T>::GetMatrixAB()
 {
     return matrixAB; //Return matrix of algebraic complements
 }
 
-Vector SystemOfEquations::Diff()
+template<typename T>
+Vector<T> SystemOfEquations<T>::Diff()
 {
-    Vector A[SIZE];
-    Vector diff;
+    Vector<T> A[SIZE];
+    Vector<T> diff;
 
     for (int i = 0; i < SIZE; ++i)
     {
@@ -72,18 +74,18 @@ Vector SystemOfEquations::Diff()
 
     for (int i = 0; i < SIZE; ++i)
     {
-        diff[i] = A[i] * matrixAB.GetVectorX(); //diff = A*B
+        diff[i] = A[i] * matrixAB.GetVectorX(); //diff = A*X
     }
 
-    diff = diff - vectorB; //diff = (A*B) - X
+    diff = diff - vectorB; //diff = (A*X) - B
 
     return diff;
 }
 
-
-std::ostream & operator<< (std::ostream &wyjscie, SystemOfEquations SoE)
+template<typename T>
+std::ostream & operator<< (std::ostream &wyjscie, SystemOfEquations<T> SoE)
 {
-    Vector tmp;
+    Vector<T> tmp;
 
     for (int i = 0; i <= SIZE; ++i)
     {
