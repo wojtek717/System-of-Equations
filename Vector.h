@@ -4,14 +4,16 @@
 #include <iostream>
 #include <math.h>
 #include "Consts.h"
+#include "Complex.h"
 
-template<typename T>
+    template<typename T>
 class Vector
 {
 private:
     T factors[SIZE];
 
 public:
+    Vector();
 
     /* Function calculate length of vector */
     T Length();
@@ -45,14 +47,15 @@ Vector<T> operator / (Vector<T> v1, T x1);
 template<typename T>
 T Vector<T>::Length()
 {
-    T sum = 0;
+    T sum;
+    sum = 0;
     
     for (int i = 0; i < SIZE; ++i)
     {
-        sum = sum + (factors[i] * factors[i]); //Sum up squares of each factors
+        sum += factors[i] * factors[i]; //Sum up squares of each factors
     }
-    
-    sum = sqrtf(sum); //Take square root of sum
+
+    sum = sqrt(sum);
     
     return sum;
 }
@@ -61,6 +64,12 @@ template<typename T>
 T& Vector<T>::operator[](int id)
 {
     return factors[id];
+}
+
+template<typename T>
+Vector<T>::Vector()
+{
+
 }
 
 template<typename T>
@@ -95,7 +104,8 @@ std::istream &operator>>(std::istream &is, Vector<T> &v)
 template<typename T>
 T operator*(Vector<T> v1, Vector<T> v2)
 {
-    T num = 0;
+    T num;
+    num = 0;
     
     for (int i = 0; i < SIZE; ++i)
     {

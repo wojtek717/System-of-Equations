@@ -5,6 +5,7 @@
 #include "Vector.h"
 #include "Consts.h"
 #include "Matrix.h"
+#include "Complex.h"
 #include <fstream>
 
 template<typename T>

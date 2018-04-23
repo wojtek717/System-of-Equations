@@ -4,6 +4,7 @@
 
 #include <math.h>
 #include "Vector.h"
+#include "Complex.h"
 
 template<typename T>
 class Matrix
@@ -13,6 +14,8 @@ private:
     Vector<T> X;
 
 public:
+    Matrix();
+
     /* Set value of matrix in coordinate XY
      * [IN] value - value to set
      * [IN] positionx - coordinate X of matrix
@@ -64,12 +67,12 @@ bool Matrix<T>::Elimination()
     {
         for (int j = i + 1; j < SIZE; ++j)
         {
-            if(fabsf(matrix[i][i]) < EPS) //Absolute value on diagonal can not be 0
+            if(abs(matrix[i][i]) < EPS) //Absolute value on diagonal can not be 0
             {
                 std::cout << "Division by 0!";
                 return false;
             }
-            multipler = - matrix[j][i] / matrix[i][i]; //Calculate multipler
+            multipler = matrix[j][i] / matrix[i][i] * -1; //Calculate multipler
             
             for (int k = 0; k <= SIZE ; ++k)
             {
@@ -93,7 +96,7 @@ bool Matrix<T>::Solution()
         {
             sum -= matrix[i][j] * X[j]; //Calculate sum
         }
-        if(fabsf(matrix[i][i]) < EPS) //Absolute value on diagonal can not be 0
+        if(abs(matrix[i][i]) < EPS) //Absolute value on diagonal can not be 0
         {
             std::cout << "Division by 0!";
             return false;
@@ -108,6 +111,11 @@ template<typename T>
 Vector<T> Matrix<T>::GetVectorX()
 {
     return X;
+}
+
+template<typename T>
+Matrix<T>::Matrix() {
+
 }
 
 template<typename T>

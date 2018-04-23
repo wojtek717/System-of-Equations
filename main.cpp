@@ -4,13 +4,14 @@
 #include "SystemOfEquations.h"
 #include "Matrix.h"
 #include "Consts.h"
+#include "Complex.h"
 
 using namespace std;
 
 int main()
 {
     char file[] = "task.txt"; //Import name of file with system of equations
-    SystemOfEquations<float> SoE(file); //Import system of equations
+    SystemOfEquations<Complex> SoE(file); //Import system of equations
 
     SoE.CreateMatrixAB(); //Create matrix of algebraic complements
 
