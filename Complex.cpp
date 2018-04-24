@@ -183,6 +183,8 @@ std::istream& operator>> (std::istream &is, Complex &z1)
     {
         throw "zla liczba zespolona"; // Jesli nie - poinformuj o bledzie
     }
+
+    return is;
 }
 
 bool operator == (Complex z1, Complex z2)

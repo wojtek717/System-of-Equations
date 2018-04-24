@@ -3,6 +3,7 @@
 
 
 #include <math.h>
+#include <string>
 #include "Vector.h"
 #include "Complex.h"
 
